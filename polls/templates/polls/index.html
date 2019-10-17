@@ -1,0 +1,11 @@
+<h1>Django</h1>
+
+<form action="/polls/calculate" autocapitalize="off" autocomplete="off" autocorrect="off" method="post">
+  {% csrf_token %}
+  <p>
+    <input id="number" name="number" placeholder="number" type="text">
+  </p>
+  <p>
+    <button type="submit">Calculate</button>
+  </p>
+</form>
