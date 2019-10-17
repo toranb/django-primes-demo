@@ -8,6 +8,6 @@ WORKDIR /demo
 
 RUN pip install pipenv && pip install -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8000
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:80"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
