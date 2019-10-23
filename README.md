@@ -5,3 +5,5 @@ heroku login
 heroku container:login
 heroku container:push web --app djangoprimes
 heroku container:release web --app djangoprimes
+
+heroku logs --app djangoprimes --tail
