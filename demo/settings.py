@@ -25,7 +25,7 @@ SECRET_KEY = 'iua&+2^f4$xsfgh1x=i_0_q3&b!yw=8+8wpyyr0zdk%bi2a3u^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoprimes.herokuapp.com']
 
 
 # Application definition
